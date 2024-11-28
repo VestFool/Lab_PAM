@@ -1,15 +1,18 @@
 name: project_pam
-description: A new Flutter project
+description: A Flutter project
 
-publish_to: "none" # Remove this line if you want to publish to pub.dev
+publish_to: 'none' # Remove this line if you plan to publish your package
+
+version: 1.0.0+1
 
 environment:
-  sdk: ">=2.18.0 <3.0.0" 
+  sdk: ">=2.18.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
   get: ^4.6.6
+  http: ^1.2.2
 
 dev_dependencies:
   flutter_test:
